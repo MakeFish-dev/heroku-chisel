@@ -1,0 +1,15 @@
+{
+    "name": "heroku-chisel",
+    "description": "Heroku Chisel Proxy",
+    "stack": "container",
+    "env": {
+        "USERNAME": {
+            "description": "Proxy Server username",
+            "required": true
+        },
+        "PASSWORD": {
+            "description": "Proxy Server password",
+            "required": true
+        }
+    }
+}
