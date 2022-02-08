@@ -6,7 +6,7 @@
 
 Use this button to deploy your instance:
 
-[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ckproxy/heroku-chisel)
+[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ckoliber/heroku-chisel)
 
 ## Usage
 
