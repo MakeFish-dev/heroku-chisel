@@ -1,4 +1,4 @@
-FROM jpillora/chisel:1.7.7
+FROM jpillora/chisel:latest
 
-ENTRYPOINT ["/app/chisel", "server", "--auth=$USERNAME:$PASSWORD", "--socks5"]
+ENTRYPOINT ["chisel", "server", "--port $PORT", "--auth=$USERNAME:$PASSWORD", "--socks5"]
 #CMD ["/app/chisel", "server", "--auth=$USERNAME:$PASSWORD", "--socks5"]
